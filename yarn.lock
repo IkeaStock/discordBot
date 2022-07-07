@@ -459,10 +459,10 @@ diff@^4.0.1:
   resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
-discord-interactions@^2.0.2:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/discord-interactions/-/discord-interactions-2.4.1.tgz#3142a130473eb95219681b7d6ca499aab82d5804"
-  integrity sha512-UPSfB47Pf4pn+qllp9hjUr5v+u45BZH9g+1dP4FxA1V4ngRV7hkDSdU2LR8drIPreJAHENPWYdd8rvWPtrdK1Q==
+discord-interactions@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/discord-interactions/-/discord-interactions-3.2.0.tgz#f5c2bf71836d3aff7e3886728d48f773d863cfc0"
+  integrity sha512-/J25RpYlokRW+2HmU5C2xo9bcgCWIzCl+MRRLCL/XvD+Hqe2WyQc639vUUKUNi6hdSdWb2kGNZDkMZxDky2dZg==
   dependencies:
     tweetnacl "^1.0.3"
 
