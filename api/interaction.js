@@ -1,3 +1,4 @@
+console.log("Loaded Bot File")
 const {
     InteractionResponseType,
     InteractionType,
