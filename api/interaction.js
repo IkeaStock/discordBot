@@ -5,7 +5,6 @@ const {
     verifyKey,
   } = require("discord-interactions");
   const getRawBody = require("raw-body");
-  require("dotenv").config();
   const INVITE_COMMAND = {
     name: "Invite",
     description: "Get an invite link to add the bot to your server",
