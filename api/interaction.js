@@ -17,12 +17,6 @@ const {
   };
   
   const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=${process.env.APPLICATION_ID}&scope=applications.commands`;
-  
-  /**
-   * Gotta see someone 'bout a trout
-   * @param {VercelRequest} request
-   * @param {VercelResponse} response
-   */
   module.exports = async (request, response) => {
     // Only respond to POST requests
     if (request.method === "POST") {
