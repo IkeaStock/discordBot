@@ -29,7 +29,7 @@ export class UserCommand extends Command {
 			}
 			if(val.store == undefined) {
 			}
-			embed.addField(val.store.name, `${val.availableStocks.quantity}`)
+			embed.addField(val.store.name, `${val.availableStocks.quantity}`, true)
 			return
 		})
 		interaction.reply({embeds: [embed], components: [row]})
