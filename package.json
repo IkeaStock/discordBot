@@ -5,7 +5,7 @@
   "author": "@sapphire",
   "license": "UNLICENSE",
   "dependencies": {
-    "@discordjs/collection": "^0.3.2",
+    "@discordjs/collection": "^0.8.0",
     "@ikeastock/api": "^1.3.0",
     "@sapphire/decorators": "^3.1.4",
     "@sapphire/discord-utilities": "^2.2.3",
