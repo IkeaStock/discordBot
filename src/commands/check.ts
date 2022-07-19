@@ -3,7 +3,7 @@ import { type CommandOptions, Command, ChatInputCommand } from '@sapphire/framew
 import { CommandInteraction, MessageActionRow, MessageButton, MessageEmbed } from 'discord.js';
 import { IkeaAPI } from '../lib/constants';
 @ApplyOptions<CommandOptions>({
-	description: 'Search the API'
+	description: 'Search the API!'
 })
 export class UserCommand extends Command {
 	public async chatInputRun(interaction: CommandInteraction) {
@@ -13,7 +13,7 @@ export class UserCommand extends Command {
 		const row = new MessageActionRow()
 		.addComponents(
 			new MessageButton()
-			.setLabel("View on Website")
+			.setLabel("View on the website.")
 			.setStyle("LINK")
 			.setURL(`${process.env.WEB_DOMAIN}/${productId}?country=${countryCode}`)
 		)
@@ -42,13 +42,13 @@ export class UserCommand extends Command {
 		  .addStringOption((option) =>
 		  	option
 				.setName('productid')
-				.setDescription("Whats the product ID?")
+				.setDescription("What is the Product ID?")
 				.setRequired(true)
 		  )
 		  .addStringOption((option) =>
 			option
 				.setName('countrycode')
-				.setDescription('What country do you want to check? you can check the site for the list')	
+				.setDescription('What country do you want to check? (You can check the site for the list!)')	
 				.setRequired(true)
 		  )
 		);
