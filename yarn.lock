@@ -214,7 +214,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/prettier-config@npm:^1.2.6":
+"@sapphire/prettier-config@npm:1.4.3":
   version: 1.4.3
   resolution: "@sapphire/prettier-config@npm:1.4.3"
   dependencies:
@@ -264,7 +264,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/ts-config@npm:^3.1.6":
+"@sapphire/ts-config@npm:3.3.4":
   version: 3.3.4
   resolution: "@sapphire/ts-config@npm:3.3.4"
   dependencies:
@@ -390,7 +390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core@npm:^1.2.210":
+"@swc/core@npm:1.2.210":
   version: 1.2.210
   resolution: "@swc/core@npm:1.2.210"
   dependencies:
@@ -464,14 +464,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.0":
+"@types/node@npm:17.0.45":
   version: 17.0.45
   resolution: "@types/node@npm:17.0.45"
   checksum: aa04366b9103b7d6cfd6b2ef64182e0eaa7d4462c3f817618486ea0422984c51fc69fd0d436eae6c9e696ddfdbec9ccaa27a917f7c2e8c75c5d57827fe3d95e8
   languageName: node
   linkType: hard
 
-"@types/ws@npm:^8.2.0, @types/ws@npm:^8.5.3":
+"@types/ws@npm:8.5.3, @types/ws@npm:^8.5.3":
   version: 8.5.3
   resolution: "@types/ws@npm:8.5.3"
   dependencies:
@@ -2123,21 +2123,21 @@ __metadata:
     "@sapphire/fetch": ^2.0.3
     "@sapphire/framework": next
     "@sapphire/plugin-logger": ^2.1.0
-    "@sapphire/prettier-config": ^1.2.6
+    "@sapphire/prettier-config": 1.4.3
     "@sapphire/time-utilities": ^1.4.9
-    "@sapphire/ts-config": ^3.1.6
+    "@sapphire/ts-config": 3.3.4
     "@sapphire/type": ^2.1.2
     "@sapphire/utilities": ^3.1.0
-    "@swc/core": ^1.2.210
-    "@types/node": ^17.0.0
-    "@types/ws": ^8.2.0
+    "@swc/core": 1.2.210
+    "@types/node": 17.0.45
+    "@types/ws": 8.5.3
     discord.js: ^13.3.1
     dotenv: ^16.0.1
-    npm-run-all: ^4.1.5
-    prettier: ^2.5.0
+    npm-run-all: 4.1.5
+    prettier: 2.7.1
     reflect-metadata: ^0.1.13
-    tsup: ^5.11.11
-    typescript: ^4.5.2
+    tsup: 5.12.9
+    typescript: 4.7.4
   languageName: unknown
   linkType: soft
 
@@ -2239,7 +2239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all@npm:^4.1.5":
+"npm-run-all@npm:4.1.5":
   version: 4.1.5
   resolution: "npm-run-all@npm:4.1.5"
   dependencies:
@@ -2455,7 +2455,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.5.0, prettier@npm:^2.6.2":
+"prettier@npm:2.7.1, prettier@npm:^2.6.2":
   version: 2.7.1
   resolution: "prettier@npm:2.7.1"
   bin:
@@ -3015,7 +3015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsup@npm:^5.11.11":
+"tsup@npm:5.12.9":
   version: 5.12.9
   resolution: "tsup@npm:5.12.9"
   dependencies:
@@ -3051,7 +3051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.2, typescript@npm:^4.6.3":
+"typescript@npm:4.7.4, typescript@npm:^4.6.3":
   version: 4.7.4
   resolution: "typescript@npm:4.7.4"
   bin:
@@ -3061,7 +3061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.7.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
   version: 4.7.4
   resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"
   bin:
